@@ -16,11 +16,11 @@ class CreateNotesTable extends Migration
         Schema::create('notes', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('company');
+            $table->string('company')->nullable();
             $table->string('phone');
             $table->string('email');
-            $table->string('date');
-            $table->string('photo');
+            $table->string('date')->nullable();
+            $table->string('photo')->nullable();
         });
     }
 
