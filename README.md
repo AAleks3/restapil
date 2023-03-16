@@ -32,6 +32,7 @@
     <li><b>date</b> - Дата. Строка.</li>
     <li><b>photo</b> - Фото. Файл в формате jpeg, png, bmp, gif или svg.</li>
 </ul>
+<p>Более наглядное описание API - <a href="https://app.swaggerhub.com/apis/MMMALEKSA14_1/myrest/1.0.0">Swagger Project API</a></p>
 
 <h2>Пагинация</h2>
 <p>Для постраничного вывода записей необходимо отправить GET-параметр 'page' в запросе <b>(Метод GET) /api/v1/notebook</b>:</p>
